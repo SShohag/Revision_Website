@@ -1,0 +1,106 @@
+body{
+    font-family: 'Noto Serif', serif;
+}
+header h1{
+    background-color: grey;
+    text-align: center;
+}
+section h1{
+    font-size: 40px;
+    font-weight: 700px;
+}
+.name-highlight{
+    color: goldenrod;
+}
+.link-button{
+border-radius: 10px;
+padding: 10px 30px;
+background-color: orange;
+text-decoration: none;
+}
+.half-width{
+    width: 50%;
+    float: left;
+}
+.half-width img{
+    width: 100%;
+}
+.half-width p{
+    text-align: justify;
+}
+.uperside{
+    background-image: url(bg/header-bg.png);
+    background-size: 100x 100px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+.midside{
+    background-image: url(bg/biography-bg.png);
+}
+article{
+    height: 700px;
+}
+.blog{
+    width: 36%;
+    padding: 4%;
+    margin: 2%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+}
+#boder{
+    border-left: 10px solid palegreen;
+    border-image: linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#boder2{
+    border-left: 10px solid palegreen;
+    border-image: linear-gradient(lightblue, blue);
+    border-image-slice: 1;
+}
+th{
+    border: 3px solid lightgrey;
+}
+td{
+    border: 3px solid greenyellow;
+    padding: 10px 10px;
+}
+table{
+    padding-top: 50%;
+    border-collapse: collapse;
+    background-color: grey;
+    border-radius: 10px;
+}
+caption{
+    border: 3.5px solid lightgray;
+    background-color: lightgrey;
+}
+.small-box{
+    list-style: none;
+
+}
+.box{
+    height: 300px;
+    width: 600px;
+    background-color: lightgrey;
+}
+.first{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 200px;
+}
+.second{
+    background-color: cyan;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 100px;
+}
+.third{
+    background-color: goldenrod;
+    height: 100px;
+    width: 100px;
+    position: sticky;
+}
+
